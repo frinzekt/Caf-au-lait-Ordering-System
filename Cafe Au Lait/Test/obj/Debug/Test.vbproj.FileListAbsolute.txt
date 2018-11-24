@@ -1,0 +1,62 @@
+H:\Visual Studio 2015\Projects\Test\Test\bin\Debug\Test.exe.config
+H:\Visual Studio 2015\Projects\Test\Test\bin\Debug\Connect.accdb
+H:\Visual Studio 2015\Projects\Test\Test\bin\Debug\Test.exe
+H:\Visual Studio 2015\Projects\Test\Test\bin\Debug\Test.pdb
+H:\Visual Studio 2015\Projects\Test\Test\bin\Debug\Test.xml
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.LoginPage.resources
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.MainPage.resources
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.Resources.resources
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.exe
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.xml
+H:\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.pdb
+F:\V1\Test\Test\bin\Debug\Test.exe.config
+F:\V1\Test\Test\obj\Debug\Test.exe
+F:\V1\Test\Test\obj\Debug\Test.xml
+F:\V1\Test\Test\obj\Debug\Test.pdb
+F:\V1\Test\Test\bin\Debug\Connect.accdb
+F:\V1\Test\Test\bin\Debug\Test.exe
+F:\V1\Test\Test\bin\Debug\Test.pdb
+F:\V1\Test\Test\bin\Debug\Test.xml
+F:\V1\Test\Test\obj\Debug\Test.LoginPage.resources
+F:\V1\Test\Test\obj\Debug\Test.MainPage.resources
+F:\V1\Test\Test\obj\Debug\Test.Resources.resources
+F:\V1\Test\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+F:\V1\Test\Test\obj\Debug\Test.CoffeeList.resources
+F:\V1\Test\Test\obj\Debug\Test.EmployeeList.resources
+F:\V1\Test\Test\obj\Debug\Test.Payment.resources
+E:\V1\Test\Test\bin\Debug\Test.exe.config
+E:\V1\Test\Test\obj\Debug\Test.exe
+E:\V1\Test\Test\obj\Debug\Test.xml
+E:\V1\Test\Test\obj\Debug\Test.pdb
+E:\V1\Test\Test\bin\Debug\Connect.accdb
+E:\V1\Test\Test\bin\Debug\Test.exe
+E:\V1\Test\Test\bin\Debug\Test.pdb
+E:\V1\Test\Test\bin\Debug\Test.xml
+E:\V1\Test\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+E:\V1\Test\Test\obj\Debug\Test.CoffeeList.resources
+E:\V1\Test\Test\obj\Debug\Test.EmployeeList.resources
+E:\V1\Test\Test\obj\Debug\Test.LoginPage.resources
+E:\V1\Test\Test\obj\Debug\Test.MainPage.resources
+E:\V1\Test\Test\obj\Debug\Test.Resources.resources
+E:\V1\Test\Test\obj\Debug\Test.Payment.resources
+E:\V1\Test\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+E:\V1\Test\Test\bin\Debug\ConnectDataSet.Designer.vb
+E:\V1\Test\Test\bin\Debug\ConnectDataSet.xsc
+E:\V1\Test\Test\bin\Debug\ConnectDataSet.xsd
+E:\V1\Test\Test\bin\Debug\ConnectDataSet.xss
+F:\V1\Test\Test\bin\Debug\ConnectDataSet.Designer.vb
+F:\V1\Test\Test\bin\Debug\ConnectDataSet.xsc
+F:\V1\Test\Test\bin\Debug\ConnectDataSet.xsd
+F:\V1\Test\Test\bin\Debug\ConnectDataSet.xss
+F:\V1\Test\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+F:\V1\Test\Test\obj\Debug\Test.CustomerReceipt.resources
+F:\V1\Test\Test\obj\Debug\Test.BarristaReceipt.resources
+E:\V1\Test\Test\obj\Debug\Test.BarristaReceipt.resources
+E:\V1\Test\Test\obj\Debug\Test.CustomerReceipt.resources
+E:\V1\Test\Test\obj\Debug\Test.Sales.resources
+\\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\bin\Debug\Test.exe.config
+\\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\obj\Debug\Test.exe
+\\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\obj\Debug\Test.xml
+\\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\obj\Debug\Test.pdb
