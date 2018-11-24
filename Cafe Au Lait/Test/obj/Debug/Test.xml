@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Test
+</name>
+</assembly>
+<members>
+<member name="T:Test.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Test.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Test.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.CoffeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.OrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Number_Of_Coffee_Sales_In_a_Specific_DayDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Order_ProfitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Total_ProfitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.CoffeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.OrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Number_Of_Coffee_Sales_In_a_Specific_DayRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Order_ProfitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Total_ProfitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.CoffeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.OrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Number_Of_Coffee_Sales_In_a_Specific_DayRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Order_ProfitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Test.ConnectDataSet.Total_ProfitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.CoffeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.OrderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.Number_Of_Coffee_Sales_In_a_Specific_DayTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.Order_ProfitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.Total_ProfitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Test.ConnectDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Test.ConnectDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Test.ConnectDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Test.ConnectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Test.ConnectDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Test.ConnectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Test.ConnectDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Test.ConnectDataSetTableAdapters.TableAdapterManager.UpdateAll(Test.ConnectDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Test.ConnectDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
