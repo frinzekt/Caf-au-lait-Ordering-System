@@ -126,9 +126,10 @@ Partial Class MainPage
         'lbl_StatusLogin
         '
         Me.lbl_StatusLogin.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lbl_StatusLogin.Location = New System.Drawing.Point(0, 680)
+        Me.lbl_StatusLogin.Location = New System.Drawing.Point(0, 837)
+        Me.lbl_StatusLogin.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbl_StatusLogin.Name = "lbl_StatusLogin"
-        Me.lbl_StatusLogin.Size = New System.Drawing.Size(330, 15)
+        Me.lbl_StatusLogin.Size = New System.Drawing.Size(440, 18)
         Me.lbl_StatusLogin.TabIndex = 0
         Me.lbl_StatusLogin.Text = "Login As : "
         '
@@ -142,20 +143,22 @@ Partial Class MainPage
         Me.TC_Coffee.Controls.Add(Me.TabPage5)
         Me.TC_Coffee.Controls.Add(Me.TabPage6)
         Me.TC_Coffee.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TC_Coffee.Location = New System.Drawing.Point(12, 183)
+        Me.TC_Coffee.Location = New System.Drawing.Point(16, 225)
+        Me.TC_Coffee.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TC_Coffee.Multiline = True
         Me.TC_Coffee.Name = "TC_Coffee"
         Me.TC_Coffee.SelectedIndex = 0
-        Me.TC_Coffee.Size = New System.Drawing.Size(657, 481)
+        Me.TC_Coffee.Size = New System.Drawing.Size(876, 592)
         Me.TC_Coffee.TabIndex = 2
         '
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.FLP_HotCoffee)
-        Me.TabPage1.Location = New System.Drawing.Point(23, 4)
+        Me.TabPage1.Location = New System.Drawing.Point(27, 4)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(630, 473)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(845, 584)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Hot Coffee"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -165,15 +168,17 @@ Partial Class MainPage
         Me.FLP_HotCoffee.Controls.Add(Me.FlowLayoutPanel1)
         Me.FLP_HotCoffee.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FLP_HotCoffee.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
-        Me.FLP_HotCoffee.Location = New System.Drawing.Point(3, 3)
+        Me.FLP_HotCoffee.Location = New System.Drawing.Point(4, 4)
+        Me.FLP_HotCoffee.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_HotCoffee.Name = "FLP_HotCoffee"
-        Me.FLP_HotCoffee.Size = New System.Drawing.Size(624, 467)
+        Me.FLP_HotCoffee.Size = New System.Drawing.Size(837, 576)
         Me.FLP_HotCoffee.TabIndex = 0
         '
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(4, 4)
+        Me.FlowLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(0, 0)
         Me.FlowLayoutPanel1.TabIndex = 0
@@ -181,10 +186,11 @@ Partial Class MainPage
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.FLP_Tea)
-        Me.TabPage2.Location = New System.Drawing.Point(23, 4)
+        Me.TabPage2.Location = New System.Drawing.Point(50, 4)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(630, 473)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Size = New System.Drawing.Size(822, 584)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Tea"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -194,15 +200,17 @@ Partial Class MainPage
         Me.FLP_Tea.Controls.Add(Me.FlowLayoutPanel3)
         Me.FLP_Tea.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FLP_Tea.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
-        Me.FLP_Tea.Location = New System.Drawing.Point(3, 3)
+        Me.FLP_Tea.Location = New System.Drawing.Point(4, 4)
+        Me.FLP_Tea.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_Tea.Name = "FLP_Tea"
-        Me.FLP_Tea.Size = New System.Drawing.Size(624, 467)
+        Me.FLP_Tea.Size = New System.Drawing.Size(814, 576)
         Me.FLP_Tea.TabIndex = 1
         '
         'FlowLayoutPanel3
         '
         Me.FlowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(4, 4)
+        Me.FlowLayoutPanel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
         Me.FlowLayoutPanel3.Size = New System.Drawing.Size(0, 0)
         Me.FlowLayoutPanel3.TabIndex = 0
@@ -210,10 +218,11 @@ Partial Class MainPage
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.FLP_Cold)
-        Me.TabPage3.Location = New System.Drawing.Point(23, 4)
+        Me.TabPage3.Location = New System.Drawing.Point(50, 4)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(630, 473)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Size = New System.Drawing.Size(822, 584)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Cold Drinks"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -223,15 +232,17 @@ Partial Class MainPage
         Me.FLP_Cold.Controls.Add(Me.FlowLayoutPanel4)
         Me.FLP_Cold.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FLP_Cold.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
-        Me.FLP_Cold.Location = New System.Drawing.Point(3, 3)
+        Me.FLP_Cold.Location = New System.Drawing.Point(4, 4)
+        Me.FLP_Cold.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_Cold.Name = "FLP_Cold"
-        Me.FLP_Cold.Size = New System.Drawing.Size(624, 467)
+        Me.FLP_Cold.Size = New System.Drawing.Size(814, 576)
         Me.FLP_Cold.TabIndex = 1
         '
         'FlowLayoutPanel4
         '
         Me.FlowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(4, 4)
+        Me.FlowLayoutPanel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
         Me.FlowLayoutPanel4.Size = New System.Drawing.Size(0, 0)
         Me.FlowLayoutPanel4.TabIndex = 0
@@ -239,9 +250,10 @@ Partial Class MainPage
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.FLP_Frozen)
-        Me.TabPage4.Location = New System.Drawing.Point(23, 4)
+        Me.TabPage4.Location = New System.Drawing.Point(50, 4)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(630, 473)
+        Me.TabPage4.Size = New System.Drawing.Size(822, 584)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Frozen Drinks"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -252,14 +264,16 @@ Partial Class MainPage
         Me.FLP_Frozen.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FLP_Frozen.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
         Me.FLP_Frozen.Location = New System.Drawing.Point(0, 0)
+        Me.FLP_Frozen.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_Frozen.Name = "FLP_Frozen"
-        Me.FLP_Frozen.Size = New System.Drawing.Size(630, 473)
+        Me.FLP_Frozen.Size = New System.Drawing.Size(822, 584)
         Me.FLP_Frozen.TabIndex = 1
         '
         'FlowLayoutPanel5
         '
         Me.FlowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(4, 4)
+        Me.FlowLayoutPanel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
         Me.FlowLayoutPanel5.Size = New System.Drawing.Size(0, 0)
         Me.FlowLayoutPanel5.TabIndex = 0
@@ -267,9 +281,10 @@ Partial Class MainPage
         'TabPage5
         '
         Me.TabPage5.Controls.Add(Me.FLP_Snacks)
-        Me.TabPage5.Location = New System.Drawing.Point(23, 4)
+        Me.TabPage5.Location = New System.Drawing.Point(50, 4)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(630, 473)
+        Me.TabPage5.Size = New System.Drawing.Size(822, 584)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Snacks"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -280,14 +295,16 @@ Partial Class MainPage
         Me.FLP_Snacks.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FLP_Snacks.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
         Me.FLP_Snacks.Location = New System.Drawing.Point(0, 0)
+        Me.FLP_Snacks.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_Snacks.Name = "FLP_Snacks"
-        Me.FLP_Snacks.Size = New System.Drawing.Size(630, 473)
+        Me.FLP_Snacks.Size = New System.Drawing.Size(822, 584)
         Me.FLP_Snacks.TabIndex = 2
         '
         'FlowLayoutPanel7
         '
         Me.FlowLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel7.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel7.Location = New System.Drawing.Point(4, 4)
+        Me.FlowLayoutPanel7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel7.Name = "FlowLayoutPanel7"
         Me.FlowLayoutPanel7.Size = New System.Drawing.Size(0, 0)
         Me.FlowLayoutPanel7.TabIndex = 0
@@ -295,9 +312,10 @@ Partial Class MainPage
         'TabPage6
         '
         Me.TabPage6.Controls.Add(Me.FLP_COD)
-        Me.TabPage6.Location = New System.Drawing.Point(23, 4)
+        Me.TabPage6.Location = New System.Drawing.Point(50, 4)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(630, 473)
+        Me.TabPage6.Size = New System.Drawing.Size(822, 584)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Cofee Of The Day"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -308,14 +326,16 @@ Partial Class MainPage
         Me.FLP_COD.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FLP_COD.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
         Me.FLP_COD.Location = New System.Drawing.Point(0, 0)
+        Me.FLP_COD.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_COD.Name = "FLP_COD"
-        Me.FLP_COD.Size = New System.Drawing.Size(630, 473)
+        Me.FLP_COD.Size = New System.Drawing.Size(822, 584)
         Me.FLP_COD.TabIndex = 1
         '
         'FlowLayoutPanel6
         '
         Me.FlowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel6.Location = New System.Drawing.Point(4, 4)
+        Me.FlowLayoutPanel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel6.Name = "FlowLayoutPanel6"
         Me.FlowLayoutPanel6.Size = New System.Drawing.Size(0, 0)
         Me.FlowLayoutPanel6.TabIndex = 0
@@ -326,15 +346,16 @@ Partial Class MainPage
         Me.CoffeeBindingNavigator.BindingSource = Me.CoffeeBindingSource
         Me.CoffeeBindingNavigator.CountItem = Me.BindingNavigatorCountItem
         Me.CoffeeBindingNavigator.DeleteItem = Me.BindingNavigatorDeleteItem
+        Me.CoffeeBindingNavigator.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.CoffeeBindingNavigator.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.CoffeeBindingNavigatorSaveItem})
-        Me.CoffeeBindingNavigator.Location = New System.Drawing.Point(0, 24)
+        Me.CoffeeBindingNavigator.Location = New System.Drawing.Point(0, 30)
         Me.CoffeeBindingNavigator.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
         Me.CoffeeBindingNavigator.MoveLastItem = Me.BindingNavigatorMoveLastItem
         Me.CoffeeBindingNavigator.MoveNextItem = Me.BindingNavigatorMoveNextItem
         Me.CoffeeBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.CoffeeBindingNavigator.Name = "CoffeeBindingNavigator"
         Me.CoffeeBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.CoffeeBindingNavigator.Size = New System.Drawing.Size(1103, 25)
+        Me.CoffeeBindingNavigator.Size = New System.Drawing.Size(1471, 31)
         Me.CoffeeBindingNavigator.TabIndex = 3
         Me.CoffeeBindingNavigator.Text = "BindingNavigator1"
         Me.CoffeeBindingNavigator.Visible = False
@@ -345,7 +366,7 @@ Partial Class MainPage
         Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
         Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(24, 28)
         Me.BindingNavigatorAddNewItem.Text = "Add new"
         '
         'CoffeeBindingSource
@@ -361,7 +382,7 @@ Partial Class MainPage
         'BindingNavigatorCountItem
         '
         Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(35, 22)
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(45, 28)
         Me.BindingNavigatorCountItem.Text = "of {0}"
         Me.BindingNavigatorCountItem.ToolTipText = "Total number of items"
         '
@@ -371,7 +392,7 @@ Partial Class MainPage
         Me.BindingNavigatorDeleteItem.Image = CType(resources.GetObject("BindingNavigatorDeleteItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorDeleteItem.Name = "BindingNavigatorDeleteItem"
         Me.BindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(24, 28)
         Me.BindingNavigatorDeleteItem.Text = "Delete"
         '
         'BindingNavigatorMoveFirstItem
@@ -380,7 +401,7 @@ Partial Class MainPage
         Me.BindingNavigatorMoveFirstItem.Image = CType(resources.GetObject("BindingNavigatorMoveFirstItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem"
         Me.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(24, 28)
         Me.BindingNavigatorMoveFirstItem.Text = "Move first"
         '
         'BindingNavigatorMovePreviousItem
@@ -389,27 +410,27 @@ Partial Class MainPage
         Me.BindingNavigatorMovePreviousItem.Image = CType(resources.GetObject("BindingNavigatorMovePreviousItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem"
         Me.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(24, 28)
         Me.BindingNavigatorMovePreviousItem.Text = "Move previous"
         '
         'BindingNavigatorSeparator
         '
         Me.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator"
-        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 25)
+        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 31)
         '
         'BindingNavigatorPositionItem
         '
         Me.BindingNavigatorPositionItem.AccessibleName = "Position"
         Me.BindingNavigatorPositionItem.AutoSize = False
         Me.BindingNavigatorPositionItem.Name = "BindingNavigatorPositionItem"
-        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(50, 23)
+        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(65, 27)
         Me.BindingNavigatorPositionItem.Text = "0"
         Me.BindingNavigatorPositionItem.ToolTipText = "Current position"
         '
         'BindingNavigatorSeparator1
         '
         Me.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator1"
-        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 25)
+        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 31)
         '
         'BindingNavigatorMoveNextItem
         '
@@ -417,7 +438,7 @@ Partial Class MainPage
         Me.BindingNavigatorMoveNextItem.Image = CType(resources.GetObject("BindingNavigatorMoveNextItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem"
         Me.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(24, 28)
         Me.BindingNavigatorMoveNextItem.Text = "Move next"
         '
         'BindingNavigatorMoveLastItem
@@ -426,42 +447,44 @@ Partial Class MainPage
         Me.BindingNavigatorMoveLastItem.Image = CType(resources.GetObject("BindingNavigatorMoveLastItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem"
         Me.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(24, 28)
         Me.BindingNavigatorMoveLastItem.Text = "Move last"
         '
         'BindingNavigatorSeparator2
         '
         Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
-        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 25)
+        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 31)
         '
         'CoffeeBindingNavigatorSaveItem
         '
         Me.CoffeeBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.CoffeeBindingNavigatorSaveItem.Image = CType(resources.GetObject("CoffeeBindingNavigatorSaveItem.Image"), System.Drawing.Image)
         Me.CoffeeBindingNavigatorSaveItem.Name = "CoffeeBindingNavigatorSaveItem"
-        Me.CoffeeBindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 22)
+        Me.CoffeeBindingNavigatorSaveItem.Size = New System.Drawing.Size(24, 28)
         Me.CoffeeBindingNavigatorSaveItem.Text = "Save Data"
         '
         'LB_Name
         '
         Me.LB_Name.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LB_Name.FormattingEnabled = True
-        Me.LB_Name.ItemHeight = 18
-        Me.LB_Name.Location = New System.Drawing.Point(61, 6)
+        Me.LB_Name.ItemHeight = 24
+        Me.LB_Name.Location = New System.Drawing.Point(81, 7)
+        Me.LB_Name.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LB_Name.Name = "LB_Name"
         Me.LB_Name.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple
-        Me.LB_Name.Size = New System.Drawing.Size(219, 490)
+        Me.LB_Name.Size = New System.Drawing.Size(291, 580)
         Me.LB_Name.TabIndex = 4
         '
         'LB_Price
         '
         Me.LB_Price.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LB_Price.FormattingEnabled = True
-        Me.LB_Price.ItemHeight = 18
-        Me.LB_Price.Location = New System.Drawing.Point(277, 6)
+        Me.LB_Price.ItemHeight = 24
+        Me.LB_Price.Location = New System.Drawing.Point(369, 7)
+        Me.LB_Price.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LB_Price.Name = "LB_Price"
         Me.LB_Price.SelectionMode = System.Windows.Forms.SelectionMode.None
-        Me.LB_Price.Size = New System.Drawing.Size(102, 490)
+        Me.LB_Price.Size = New System.Drawing.Size(135, 580)
         Me.LB_Price.TabIndex = 5
         '
         'FLP_Numpad
@@ -476,18 +499,20 @@ Partial Class MainPage
         Me.FLP_Numpad.Controls.Add(Me.btn_8)
         Me.FLP_Numpad.Controls.Add(Me.btn_9)
         Me.FLP_Numpad.Controls.Add(Me.btn_0)
-        Me.FLP_Numpad.Location = New System.Drawing.Point(12, 125)
+        Me.FLP_Numpad.Location = New System.Drawing.Point(16, 154)
+        Me.FLP_Numpad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_Numpad.Name = "FLP_Numpad"
-        Me.FLP_Numpad.Size = New System.Drawing.Size(668, 52)
+        Me.FLP_Numpad.Size = New System.Drawing.Size(891, 64)
         Me.FLP_Numpad.TabIndex = 6
         '
         'btn_1
         '
         Me.btn_1.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_1.Location = New System.Drawing.Point(3, 3)
+        Me.btn_1.Location = New System.Drawing.Point(4, 4)
+        Me.btn_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_1.Name = "btn_1"
-        Me.btn_1.Size = New System.Drawing.Size(60, 41)
+        Me.btn_1.Size = New System.Drawing.Size(80, 50)
         Me.btn_1.TabIndex = 0
         Me.btn_1.Text = "1"
         Me.btn_1.UseVisualStyleBackColor = False
@@ -496,9 +521,10 @@ Partial Class MainPage
         '
         Me.btn_2.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_2.Location = New System.Drawing.Point(69, 3)
+        Me.btn_2.Location = New System.Drawing.Point(92, 4)
+        Me.btn_2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_2.Name = "btn_2"
-        Me.btn_2.Size = New System.Drawing.Size(60, 41)
+        Me.btn_2.Size = New System.Drawing.Size(80, 50)
         Me.btn_2.TabIndex = 1
         Me.btn_2.Text = "2"
         Me.btn_2.UseVisualStyleBackColor = False
@@ -507,9 +533,10 @@ Partial Class MainPage
         '
         Me.btn_3.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_3.Location = New System.Drawing.Point(135, 3)
+        Me.btn_3.Location = New System.Drawing.Point(180, 4)
+        Me.btn_3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_3.Name = "btn_3"
-        Me.btn_3.Size = New System.Drawing.Size(60, 41)
+        Me.btn_3.Size = New System.Drawing.Size(80, 50)
         Me.btn_3.TabIndex = 2
         Me.btn_3.Text = "3"
         Me.btn_3.UseVisualStyleBackColor = False
@@ -518,9 +545,10 @@ Partial Class MainPage
         '
         Me.btn_4.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_4.Location = New System.Drawing.Point(201, 3)
+        Me.btn_4.Location = New System.Drawing.Point(268, 4)
+        Me.btn_4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_4.Name = "btn_4"
-        Me.btn_4.Size = New System.Drawing.Size(60, 41)
+        Me.btn_4.Size = New System.Drawing.Size(80, 50)
         Me.btn_4.TabIndex = 3
         Me.btn_4.Text = "4"
         Me.btn_4.UseVisualStyleBackColor = False
@@ -529,9 +557,10 @@ Partial Class MainPage
         '
         Me.btn_5.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_5.Location = New System.Drawing.Point(267, 3)
+        Me.btn_5.Location = New System.Drawing.Point(356, 4)
+        Me.btn_5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_5.Name = "btn_5"
-        Me.btn_5.Size = New System.Drawing.Size(60, 41)
+        Me.btn_5.Size = New System.Drawing.Size(80, 50)
         Me.btn_5.TabIndex = 4
         Me.btn_5.Text = "5"
         Me.btn_5.UseVisualStyleBackColor = False
@@ -540,9 +569,10 @@ Partial Class MainPage
         '
         Me.btn_6.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_6.Location = New System.Drawing.Point(333, 3)
+        Me.btn_6.Location = New System.Drawing.Point(444, 4)
+        Me.btn_6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_6.Name = "btn_6"
-        Me.btn_6.Size = New System.Drawing.Size(60, 41)
+        Me.btn_6.Size = New System.Drawing.Size(80, 50)
         Me.btn_6.TabIndex = 5
         Me.btn_6.Text = "6"
         Me.btn_6.UseVisualStyleBackColor = False
@@ -551,9 +581,10 @@ Partial Class MainPage
         '
         Me.btn_7.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_7.Location = New System.Drawing.Point(399, 3)
+        Me.btn_7.Location = New System.Drawing.Point(532, 4)
+        Me.btn_7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_7.Name = "btn_7"
-        Me.btn_7.Size = New System.Drawing.Size(60, 41)
+        Me.btn_7.Size = New System.Drawing.Size(80, 50)
         Me.btn_7.TabIndex = 6
         Me.btn_7.Text = "7"
         Me.btn_7.UseVisualStyleBackColor = False
@@ -562,9 +593,10 @@ Partial Class MainPage
         '
         Me.btn_8.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_8.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_8.Location = New System.Drawing.Point(465, 3)
+        Me.btn_8.Location = New System.Drawing.Point(620, 4)
+        Me.btn_8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_8.Name = "btn_8"
-        Me.btn_8.Size = New System.Drawing.Size(60, 41)
+        Me.btn_8.Size = New System.Drawing.Size(80, 50)
         Me.btn_8.TabIndex = 7
         Me.btn_8.Text = "8"
         Me.btn_8.UseVisualStyleBackColor = False
@@ -573,9 +605,10 @@ Partial Class MainPage
         '
         Me.btn_9.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_9.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_9.Location = New System.Drawing.Point(531, 3)
+        Me.btn_9.Location = New System.Drawing.Point(708, 4)
+        Me.btn_9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_9.Name = "btn_9"
-        Me.btn_9.Size = New System.Drawing.Size(60, 41)
+        Me.btn_9.Size = New System.Drawing.Size(80, 50)
         Me.btn_9.TabIndex = 8
         Me.btn_9.Text = "9"
         Me.btn_9.UseVisualStyleBackColor = False
@@ -584,9 +617,10 @@ Partial Class MainPage
         '
         Me.btn_0.BackColor = System.Drawing.Color.FromArgb(CType(CType(198, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_0.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_0.Location = New System.Drawing.Point(597, 3)
+        Me.btn_0.Location = New System.Drawing.Point(796, 4)
+        Me.btn_0.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_0.Name = "btn_0"
-        Me.btn_0.Size = New System.Drawing.Size(60, 41)
+        Me.btn_0.Size = New System.Drawing.Size(80, 50)
         Me.btn_0.TabIndex = 9
         Me.btn_0.Text = "0"
         Me.btn_0.UseVisualStyleBackColor = False
@@ -595,19 +629,21 @@ Partial Class MainPage
         '
         Me.LB_Num.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LB_Num.FormattingEnabled = True
-        Me.LB_Num.ItemHeight = 18
-        Me.LB_Num.Location = New System.Drawing.Point(8, 6)
+        Me.LB_Num.ItemHeight = 24
+        Me.LB_Num.Location = New System.Drawing.Point(11, 7)
+        Me.LB_Num.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LB_Num.Name = "LB_Num"
         Me.LB_Num.SelectionMode = System.Windows.Forms.SelectionMode.None
-        Me.LB_Num.Size = New System.Drawing.Size(54, 490)
+        Me.LB_Num.Size = New System.Drawing.Size(71, 580)
         Me.LB_Num.TabIndex = 7
         '
         'txt_ShowStats
         '
-        Me.txt_ShowStats.Location = New System.Drawing.Point(18, 28)
+        Me.txt_ShowStats.Location = New System.Drawing.Point(24, 34)
+        Me.txt_ShowStats.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txt_ShowStats.Multiline = True
         Me.txt_ShowStats.Name = "txt_ShowStats"
-        Me.txt_ShowStats.Size = New System.Drawing.Size(144, 86)
+        Me.txt_ShowStats.Size = New System.Drawing.Size(191, 105)
         Me.txt_ShowStats.TabIndex = 10
         Me.txt_ShowStats.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -617,44 +653,49 @@ Partial Class MainPage
         Me.FLP_Link.Controls.Add(Me.btn_ClearAll)
         Me.FLP_Link.Controls.Add(Me.btn_Pay)
         Me.FLP_Link.Controls.Add(Me.btn_TAPay)
-        Me.FLP_Link.Location = New System.Drawing.Point(675, 610)
+        Me.FLP_Link.Location = New System.Drawing.Point(900, 751)
+        Me.FLP_Link.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FLP_Link.Name = "FLP_Link"
-        Me.FLP_Link.Size = New System.Drawing.Size(416, 73)
+        Me.FLP_Link.Size = New System.Drawing.Size(555, 90)
         Me.FLP_Link.TabIndex = 11
         Me.FLP_Link.TabStop = True
         '
         'btn_RS
         '
-        Me.btn_RS.Location = New System.Drawing.Point(3, 3)
+        Me.btn_RS.Location = New System.Drawing.Point(4, 4)
+        Me.btn_RS.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_RS.Name = "btn_RS"
-        Me.btn_RS.Size = New System.Drawing.Size(97, 65)
+        Me.btn_RS.Size = New System.Drawing.Size(129, 80)
         Me.btn_RS.TabIndex = 3
         Me.btn_RS.Text = "Remove Selected"
         Me.btn_RS.UseVisualStyleBackColor = True
         '
         'btn_ClearAll
         '
-        Me.btn_ClearAll.Location = New System.Drawing.Point(106, 3)
+        Me.btn_ClearAll.Location = New System.Drawing.Point(141, 4)
+        Me.btn_ClearAll.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_ClearAll.Name = "btn_ClearAll"
-        Me.btn_ClearAll.Size = New System.Drawing.Size(97, 65)
+        Me.btn_ClearAll.Size = New System.Drawing.Size(129, 80)
         Me.btn_ClearAll.TabIndex = 0
         Me.btn_ClearAll.Text = "CLEAR ALL"
         Me.btn_ClearAll.UseVisualStyleBackColor = True
         '
         'btn_Pay
         '
-        Me.btn_Pay.Location = New System.Drawing.Point(209, 3)
+        Me.btn_Pay.Location = New System.Drawing.Point(278, 4)
+        Me.btn_Pay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Pay.Name = "btn_Pay"
-        Me.btn_Pay.Size = New System.Drawing.Size(97, 65)
+        Me.btn_Pay.Size = New System.Drawing.Size(129, 80)
         Me.btn_Pay.TabIndex = 2
         Me.btn_Pay.Text = "Dine In   Payment"
         Me.btn_Pay.UseVisualStyleBackColor = True
         '
         'btn_TAPay
         '
-        Me.btn_TAPay.Location = New System.Drawing.Point(312, 3)
+        Me.btn_TAPay.Location = New System.Drawing.Point(415, 4)
+        Me.btn_TAPay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_TAPay.Name = "btn_TAPay"
-        Me.btn_TAPay.Size = New System.Drawing.Size(94, 65)
+        Me.btn_TAPay.Size = New System.Drawing.Size(125, 80)
         Me.btn_TAPay.TabIndex = 4
         Me.btn_TAPay.Text = "Take Away Payment"
         Me.btn_TAPay.UseVisualStyleBackColor = True
@@ -666,18 +707,20 @@ Partial Class MainPage
         Me.FlowLayoutPanel2.Controls.Add(Me.btn_add)
         Me.FlowLayoutPanel2.Controls.Add(Me.btn_subtract)
         Me.FlowLayoutPanel2.Controls.Add(Me.btn_ClearEntry)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(181, 24)
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(241, 30)
+        Me.FlowLayoutPanel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(499, 90)
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(665, 111)
         Me.FlowLayoutPanel2.TabIndex = 12
         '
         'btn_TakeAway
         '
         Me.btn_TakeAway.BackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(176, Byte), Integer))
         Me.btn_TakeAway.Enabled = False
-        Me.btn_TakeAway.Location = New System.Drawing.Point(3, 3)
+        Me.btn_TakeAway.Location = New System.Drawing.Point(4, 4)
+        Me.btn_TakeAway.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_TakeAway.Name = "btn_TakeAway"
-        Me.btn_TakeAway.Size = New System.Drawing.Size(86, 76)
+        Me.btn_TakeAway.Size = New System.Drawing.Size(115, 94)
         Me.btn_TakeAway.TabIndex = 0
         Me.btn_TakeAway.Text = "Take Away"
         Me.btn_TakeAway.UseVisualStyleBackColor = False
@@ -686,9 +729,10 @@ Partial Class MainPage
         '
         Me.btn_DineIn.BackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(176, Byte), Integer))
         Me.btn_DineIn.Enabled = False
-        Me.btn_DineIn.Location = New System.Drawing.Point(95, 3)
+        Me.btn_DineIn.Location = New System.Drawing.Point(127, 4)
+        Me.btn_DineIn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_DineIn.Name = "btn_DineIn"
-        Me.btn_DineIn.Size = New System.Drawing.Size(86, 76)
+        Me.btn_DineIn.Size = New System.Drawing.Size(115, 94)
         Me.btn_DineIn.TabIndex = 1
         Me.btn_DineIn.Text = "Dine In"
         Me.btn_DineIn.UseVisualStyleBackColor = False
@@ -697,9 +741,10 @@ Partial Class MainPage
         '
         Me.btn_add.BackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(176, Byte), Integer))
         Me.btn_add.Enabled = False
-        Me.btn_add.Location = New System.Drawing.Point(187, 3)
+        Me.btn_add.Location = New System.Drawing.Point(250, 4)
+        Me.btn_add.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_add.Name = "btn_add"
-        Me.btn_add.Size = New System.Drawing.Size(86, 76)
+        Me.btn_add.Size = New System.Drawing.Size(115, 94)
         Me.btn_add.TabIndex = 2
         Me.btn_add.Text = "+"
         Me.btn_add.UseVisualStyleBackColor = False
@@ -708,9 +753,10 @@ Partial Class MainPage
         '
         Me.btn_subtract.BackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(176, Byte), Integer))
         Me.btn_subtract.Enabled = False
-        Me.btn_subtract.Location = New System.Drawing.Point(279, 3)
+        Me.btn_subtract.Location = New System.Drawing.Point(373, 4)
+        Me.btn_subtract.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_subtract.Name = "btn_subtract"
-        Me.btn_subtract.Size = New System.Drawing.Size(86, 76)
+        Me.btn_subtract.Size = New System.Drawing.Size(115, 94)
         Me.btn_subtract.TabIndex = 3
         Me.btn_subtract.Text = "-"
         Me.btn_subtract.UseVisualStyleBackColor = False
@@ -718,9 +764,10 @@ Partial Class MainPage
         'btn_ClearEntry
         '
         Me.btn_ClearEntry.BackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(146, Byte), Integer), CType(CType(176, Byte), Integer))
-        Me.btn_ClearEntry.Location = New System.Drawing.Point(371, 3)
+        Me.btn_ClearEntry.Location = New System.Drawing.Point(496, 4)
+        Me.btn_ClearEntry.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_ClearEntry.Name = "btn_ClearEntry"
-        Me.btn_ClearEntry.Size = New System.Drawing.Size(101, 76)
+        Me.btn_ClearEntry.Size = New System.Drawing.Size(135, 94)
         Me.btn_ClearEntry.TabIndex = 4
         Me.btn_ClearEntry.Text = "Clear Entry"
         Me.btn_ClearEntry.UseVisualStyleBackColor = False
@@ -729,9 +776,10 @@ Partial Class MainPage
         '
         Me.lbl_Total.AutoSize = True
         Me.lbl_Total.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!)
-        Me.lbl_Total.Location = New System.Drawing.Point(878, 558)
+        Me.lbl_Total.Location = New System.Drawing.Point(1171, 687)
+        Me.lbl_Total.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbl_Total.Name = "lbl_Total"
-        Me.lbl_Total.Size = New System.Drawing.Size(197, 37)
+        Me.lbl_Total.Size = New System.Drawing.Size(241, 46)
         Me.lbl_Total.TabIndex = 13
         Me.lbl_Total.Text = "Total : $0.00"
         Me.lbl_Total.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -739,37 +787,42 @@ Partial Class MainPage
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(719, 37)
+        Me.Label1.Location = New System.Drawing.Point(959, 46)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 13)
+        Me.Label1.Size = New System.Drawing.Size(58, 17)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Number"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(770, 37)
+        Me.Label2.Location = New System.Drawing.Point(1027, 46)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(35, 13)
+        Me.Label2.Size = New System.Drawing.Size(45, 17)
         Me.Label2.TabIndex = 15
         Me.Label2.Text = "Name"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(986, 37)
+        Me.Label3.Location = New System.Drawing.Point(1315, 46)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(31, 13)
+        Me.Label3.Size = New System.Drawing.Size(40, 17)
         Me.Label3.TabIndex = 16
         Me.Label3.Text = "Price"
         '
         'MenuStrip
         '
         Me.MenuStrip.BackColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.MenuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminTaskToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(1103, 24)
+        Me.MenuStrip.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip.Size = New System.Drawing.Size(1471, 28)
         Me.MenuStrip.TabIndex = 17
         Me.MenuStrip.Text = "MenuStrip"
         '
@@ -779,32 +832,33 @@ Partial Class MainPage
         Me.AdminTaskToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AdminTaskToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Highlight
         Me.AdminTaskToolStripMenuItem.Name = "AdminTaskToolStripMenuItem"
-        Me.AdminTaskToolStripMenuItem.Size = New System.Drawing.Size(88, 20)
+        Me.AdminTaskToolStripMenuItem.Size = New System.Drawing.Size(110, 24)
         Me.AdminTaskToolStripMenuItem.Text = "Admin Tasks"
         '
         'BeveragesToolStripMenuItem
         '
         Me.BeveragesToolStripMenuItem.Name = "BeveragesToolStripMenuItem"
-        Me.BeveragesToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.BeveragesToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
         Me.BeveragesToolStripMenuItem.Text = "Add/Edit Coffee"
         '
         'AddEditEmployeesToolStripMenuItem
         '
         Me.AddEditEmployeesToolStripMenuItem.Name = "AddEditEmployeesToolStripMenuItem"
-        Me.AddEditEmployeesToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.AddEditEmployeesToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
         Me.AddEditEmployeesToolStripMenuItem.Text = "Add/Edit Employees"
         '
         'CheckSalesToolStripMenuItem
         '
         Me.CheckSalesToolStripMenuItem.Name = "CheckSalesToolStripMenuItem"
-        Me.CheckSalesToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.CheckSalesToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
         Me.CheckSalesToolStripMenuItem.Text = "Check Sales"
         '
         'btn_logout
         '
-        Me.btn_logout.Location = New System.Drawing.Point(331, 674)
+        Me.btn_logout.Location = New System.Drawing.Point(441, 830)
+        Me.btn_logout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_logout.Name = "btn_logout"
-        Me.btn_logout.Size = New System.Drawing.Size(74, 25)
+        Me.btn_logout.Size = New System.Drawing.Size(99, 31)
         Me.btn_logout.TabIndex = 18
         Me.btn_logout.Text = "Log Out"
         Me.btn_logout.UseVisualStyleBackColor = True
@@ -814,18 +868,22 @@ Partial Class MainPage
         Me.GroupBox1.Controls.Add(Me.LB_Num)
         Me.GroupBox1.Controls.Add(Me.LB_Price)
         Me.GroupBox1.Controls.Add(Me.LB_Name)
-        Me.GroupBox1.Location = New System.Drawing.Point(701, 53)
+        Me.GroupBox1.Location = New System.Drawing.Point(935, 65)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(390, 507)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(520, 624)
         Me.GroupBox1.TabIndex = 19
         Me.GroupBox1.TabStop = False
         '
         'LB_PK
         '
         Me.LB_PK.FormattingEnabled = True
-        Me.LB_PK.Location = New System.Drawing.Point(687, 483)
+        Me.LB_PK.ItemHeight = 16
+        Me.LB_PK.Location = New System.Drawing.Point(916, 594)
+        Me.LB_PK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LB_PK.Name = "LB_PK"
-        Me.LB_PK.Size = New System.Drawing.Size(185, 121)
+        Me.LB_PK.Size = New System.Drawing.Size(245, 148)
         Me.LB_PK.TabIndex = 20
         Me.LB_PK.Visible = False
         '
@@ -844,10 +902,10 @@ Partial Class MainPage
         '
         'MainPage
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(225, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1103, 695)
+        Me.ClientSize = New System.Drawing.Size(1471, 855)
         Me.Controls.Add(Me.LB_PK)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btn_logout)
@@ -865,6 +923,7 @@ Partial Class MainPage
         Me.Controls.Add(Me.TC_Coffee)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MainMenuStrip = Me.MenuStrip
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "MainPage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

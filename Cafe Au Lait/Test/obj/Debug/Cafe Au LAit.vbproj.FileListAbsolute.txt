@@ -21,3 +21,27 @@
 \\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\obj\Debug\Test.exe
 \\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\obj\Debug\Test.xml
 \\E4126S01sv001.green.schools.internal\fsE4126S01-StudentFolders$\frinze.lapus\Desktop\Cafe Au Lait\Cafe Au Lait\Test\obj\Debug\Test.pdb
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\Connect.accdb
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\ConnectDataSet.Designer.vb
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\ConnectDataSet.xsc
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\ConnectDataSet.xsd
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\ConnectDataSet.xss
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\Test.exe.config
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\Test.exe
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\Test.pdb
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\bin\Debug\Test.xml
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Cafe Au LAit.vbprojAssemblyReference.cache
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.BarristaReceipt.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.CoffeeList.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.CustomerReceipt.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.EmployeeList.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.LoginPage.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.MainPage.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.Resources.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.Payment.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.Sales.resources
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Cafe Au LAit.vbproj.GenerateResource.cache
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Cafe Au LAit.vbproj.CoreCompileInputs.cache
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.exe
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.xml
+D:\Personal Files\GitHub\Cafe-Au-Latte-Payroll-System\Caf-au-lait-Ordering-System\Cafe Au Lait\Test\obj\Debug\Test.pdb
